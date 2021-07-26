@@ -198,7 +198,7 @@ def avg(col):
 @since(1.3)
 def mean(col):
     """
-    Aggregate function: returns the average of the values in a group.
+    Aggregate function: returns the mean of the values in a group.
     """
     return _invoke_function_over_column("mean", col)
 
